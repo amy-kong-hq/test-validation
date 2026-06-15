@@ -30,6 +30,34 @@ collection:
         send: true
         store: true
       rebuildPath: true
+  - url: http://create
+    name: New Request
+    meta:
+      id: req_63f6253e95de473e94cceefaffeb1ebf
+      created: 1781509669160
+      modified: 1781509696478
+      isPrivate: false
+      description: ""
+      sortKey: -1781509669160
+    method: POST
+    body:
+      mimeType: application/json
+      text: '{"hello":"world"}'
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/12.6.0
+        description: ""
+        disabled: false
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
 cookieJar:
   name: Default Jar
   meta:
