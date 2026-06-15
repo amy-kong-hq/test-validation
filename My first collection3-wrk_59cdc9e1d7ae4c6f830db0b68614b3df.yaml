@@ -1,0 +1,96 @@
+type: collection.insomnia.rest/5.0
+schema_version: "5.1"
+name: My first collection3
+meta:
+  id: wrk_59cdc9e1d7ae4c6f830db0b68614b3df
+  created: 1781513138281
+  modified: 1781513138281
+  description: ""
+collection:
+  - url: https://12.6
+    name: My first request2
+    meta:
+      id: req_a192badfe1d44d588fa2382d15230851
+      created: 1781508777399
+      modified: 1781508784573
+      isPrivate: false
+      description: ""
+      sortKey: -1781508777399
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/12.6.0
+        description: ""
+        disabled: false
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://create
+    name: New Request
+    meta:
+      id: req_71ba7f4ea8c7484c829900fb581136f1
+      created: 1781509669160
+      modified: 1781509696478
+      isPrivate: false
+      description: ""
+      sortKey: -1781509669160
+    method: POST
+    body:
+      mimeType: application/json
+      text: '{"hello":"world"}'
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/12.6.0
+        description: ""
+        disabled: false
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: ""
+    name: New Request
+    meta:
+      id: req_89b3ad752e16497d8633ec4c27c17677
+      created: 1781510262089
+      modified: 1781510262089
+      isPrivate: false
+      description: ""
+      sortKey: -1781510262089
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/12.6.0
+        description: ""
+        disabled: false
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_571ce075627e4274af7282b82cf81dc1
+    created: 1781508777397
+    modified: 1781508777397
+environments:
+  name: Base Environment
+  meta:
+    id: env_135c64a01fce45f7918ed7f119b78674
+    created: 1781508777397
+    modified: 1781508777397
+    isPrivate: false
