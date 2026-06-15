@@ -7,12 +7,12 @@ meta:
   modified: 1781507324286
   description: ""
 collection:
-  - url: http://get
+  - url: http://get/a
     name: New Request
     meta:
       id: req_ebd1ea5cdfeb40a0bb638063403d98b0
       created: 1781507905363
-      modified: 1781507915536
+      modified: 1781508530775
       isPrivate: false
       description: ""
       sortKey: -1781507905363
