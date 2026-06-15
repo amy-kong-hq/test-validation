@@ -1,6 +1,6 @@
 type: collection.insomnia.rest/5.0
 schema_version: "5.1"
-name: My first collection
+name: My first collection2
 meta:
   id: wrk_2f6e4363ea314c47836abf0db894bc57
   created: 1781508777395
@@ -8,7 +8,7 @@ meta:
   description: ""
 collection:
   - url: https://12.6
-    name: My first request
+    name: My first request2
     meta:
       id: req_a00825fec718410bba1fb42d9345926d
       created: 1781508777399
